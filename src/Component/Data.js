@@ -30,12 +30,7 @@ export default class Data extends Component {
                     Columns={col}
                     defaultPageSize={10}
                     pageSizeOpton={[10,20,30,40,50,60,70,80,90,100]}
-                /> 
-                <table>
-                    <ul>
-                    {this.state.tableinfo.name}
-                    </ul>
-                </table>
+                />
             </Fregment>
         )
     }
